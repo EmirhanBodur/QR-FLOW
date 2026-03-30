@@ -1,6 +1,6 @@
 # QR-Flow 🚀
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](#english) [![tr](https://img.shields.io/badge/lang-tr-blue.svg)](#türkçe)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](#english) [![tr](https://img.shields.io/badge/lang-tr-blue.svg)](#turkish)
 
 ---
 
@@ -27,6 +27,27 @@ QR-Flow is a modern, multi-step web application that converts order numbers and 
 * **QR Library:** `qrcode.react` (Canvas-based high-quality rendering)
 * **Icons:** `lucide-react`
 
-### 🚀 Installation & Setup
+---
 
-Follow these steps to run the project locally:
+<a id="turkish"></a>
+## 🇹🇷 Türkçe
+
+QR-Flow, sipariş numaralarını ve operasyonel verileri saniyeler içinde yüksek çözünürlüklü QR kodlara dönüştüren modern, çok adımlı bir web uygulamasıdır. Kullanıcıyı hatırlayan akıllı önbellek yapısı sayesinde, sık tekrar eden QR oluşturma süreçlerini minimum eforla kolaylaştırır.
+
+### ✨ Özellikler
+
+* **Akıllı Önbellek (Yerel Depolama):** Kullanıcılar sadece isimlerini girerek giriş yaparlar. Sistem onları hatırlar ve bir sonraki ziyaretlerinde doğrudan geçmişlerine yönlendirir.
+* **Dinamik QR Üretimi:** Girilen sipariş numaralarına özel, anında yüksek çözünürlüklü (Seviye H - %30 Hata Düzeltmeli) QR kodlar üretir.
+* **Geçmiş Paneli:** Kullanıcılar daha önce oluşturdukları tüm QR kodlara tek bir ekrandan erişebilir ve aralarında hızlıca geçiş yapabilir.
+* **Hızlı Dışa Aktarım:**
+  * 📥 **İndir:** Üretilen QR kodlarını tek tıkla şeffaf PNG olarak doğrudan cihaza kaydeder.
+  * 📋 **Panoya Kopyala:** QR kodu görsel olarak panoya kopyalar (Ctrl+V ile herhangi bir belgeye yapıştırılabilir).
+* **Modern ve Duyarlı Arayüz:** Minimalist ve kullanıcı dostu bir UI/UX deneyimi için Tailwind CSS ile tasarlanmıştır.
+* **Yardım Modalı:** Kullanıcıları yönlendiren, arka planı bulanık, şık bir bilgilendirme ekranı.
+
+### 🛠️ Kullanılan Teknolojiler
+
+* **Frontend:** React.js
+* **Stil:** Tailwind CSS
+* **QR Kütüphanesi:** `qrcode.react` (Canvas tabanlı yüksek kaliteli görüntü oluşturma)
+* **İkonlar:** `lucide-react`
